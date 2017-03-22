@@ -16,3 +16,5 @@ asthma_samp <- read_csv(read_path, col_types = cols(.default = col_character()))
 
 asthma_sqlite <- copy_to(my_db, asthma_samp, temporary = T)
 asthma_sqlite
+
+## orgeon
